@@ -1,4 +1,4 @@
-.head{
+.head {
     display:flex;
     height:50px;
     justify-content:space-between;
@@ -7,38 +7,38 @@
     border-top: 1px solid black;
 }
 
-.head-icons{
+.head-icons {
     width:300px;
     display:flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.sub-acc{
+.sub-acc {
     width:300px;
     display:flex;
     justify-content: space-around;
     align-items: center;  
 }
 
-.drop{
+.drop {
     color:black;
 }
 
-.subscribe{
+.subscribe {
     margin-right:30px;
     padding:11px 12px 8px 12px;
     font-size: larger;
     background-color: #567B95;
 }
 
-.space{
+.space {
     font-size:x-large;
     font-weight: bold;
     padding-bottom:7px;
 }
 
-h1{
+h1 {
     width:500px;
     text-align:center;
     padding-top: 30px;
@@ -50,7 +50,7 @@ h1{
     border-bottom:1px solid black;  
 }
 
-.icons{
+.icons {
     display:flex;
     margin-left:40%;
     margin-right:40%;
@@ -59,44 +59,44 @@ h1{
     justify-content: space-between;   
 }
 
-.facebook{
+.facebook {
     color:orange;   
 }
 
-.twitter{
+.twitter {
     color:orange;
 }
 
-.whatsup{
+.whatsup { 
     color:orange;  
 }
 
-.share{
+.share {
     color:orange;
 }
 
-.message{
+.message {
     color:orange;  
 }
 
-.envelope{
+.envelope {
     color:orange;
 }
 
-.alan-image{
+.alan-image {
     display:block;
     width: 80%;
     margin-left:auto;
     margin-right:auto; 
     }
 
- .alan-caption{
+ .alan-caption {
      margin-left:10%;
      margin-right:20%;
      margin-top:5px;
  }  
 
- .one{
+ .one { 
      width:700px;
      margin-left:auto;
      margin-right: auto;
@@ -105,30 +105,30 @@ h1{
      font-size:larger;
  }
 
- h3{
+ h3 {
     margin-left: 360px;
  }
 
- h4{
+ h4 {
      margin-left: 360px;
      font-size:larger
  }
 
-h5{
+h5 {
     font-size:larger;
     font-weight:bold;
     margin-left: 150px;
     margin-bottom: 20px;
 }
 
-.infilation-p{
+.infilation-p {
     width:80%;
     margin-left: auto;
     margin-right: auto;
     font-size:20px;
 }
 
-.inflation{
+.inflation {
     display: block;
     width:80%;
     margin-left:auto;
@@ -136,7 +136,7 @@ h5{
     position:relative;
     
 }
-.container-one{
+.container-one {
 display:grid;
 font-size:15px;
 width:80%;
@@ -151,7 +151,7 @@ top:330%;
 margin-bottom:200px;
 
 }
-.container-two{
+.container-two {
     display:grid;
 font-size:15px;
 width:80%;
@@ -166,27 +166,27 @@ top:370%;
 margin-bottom:200px;
 }
 
-.video{
+.video {
     display:block;
     margin-left:auto;
     margin-right: auto;
     margin-top: 30px;
 }
 
-.video-p{
+.video-p {
     width:700px;
     margin-left:auto;
     margin-right: auto;
 }
 
-.telescope{
+.telescope {
     display:block;
     width:700px;
     margin-left:auto;
     margin-right:auto;
 }
 
-.para-header{
+.para-header {
     font-size:larger;
     font-weight: bold;
     width:700px;
@@ -194,29 +194,29 @@ margin-bottom:200px;
     margin-right: auto;
 }
 
-.version{
+.version {
     width:700px;
     margin-left: auto;
     margin-right: auto;
     font-size: small;
 }
 
-.sub{
+.sub {
     color:black;
     text-decoration: none;
 }
 
-.order-r{
+.order-r {
     color:black;
     text-decoration: none;
 }
 
-.todays{
+.todays {
     color:black;
     text-decoration: none;
 }
 
-.read-comments{
+.read-comments {
     width:700px;
     display:flex;
     justify-content:space-evenly;
@@ -227,14 +227,14 @@ margin-bottom:200px;
     padding-top:10px; 
 }
 
-.icons-2{
+.icons-2 {
     display:flex;
     width:300px;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.comments{
+.comments {
     color:black;
     padding:5px 100px 5px 50px;
     background-color: #567B95;
@@ -242,7 +242,7 @@ margin-bottom:200px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.popular{
+.popular {
     width:80%;
     margin-left: auto;
     margin-right: auto;
@@ -254,20 +254,20 @@ margin-bottom:200px;
     margin-top: 30px;
 }
 
-.letter{
+.letter {
     font-size:larger;
     padding-right: 400px;
     font-weight: bold;
     margin-right: 100px;
 }
 
-.most{
+.most {
     font-size:larger;
     padding-right: 200px;
     font-weight: bold;
 }
 
-.suggested-news{
+.suggested-news { 
     width:90%;
     margin-left: auto;
     margin-right: auto;
@@ -276,14 +276,14 @@ margin-bottom:200px;
     margin-top: 10px;
 }
 
-.newsletter{
+.newsletter {
     display:grid;
     grid-template-columns: 250px 250px 250px;
     grid-column-gap:30px;
     justify-self: flex-start;
 }
 
-.breaking-news{
+.breaking-news {
     border-color:rosybrown;
     border-width:1px;
     border-style: solid;
@@ -292,7 +292,7 @@ margin-bottom:200px;
     justify-content: space-between;
 }
 
-.at-home{
+.at-home {
     border-color:rosybrown;
     border-width:1px;
     border-style: solid;
@@ -301,7 +301,7 @@ margin-bottom:200px;
     justify-content: space-between;
 }
 
-.the-morning{
+.the-morning {
     border-color:rosybrown;
     border-width:1px;
     border-style: solid;
@@ -310,7 +310,7 @@ margin-bottom:200px;
     justify-content: space-between;
 }
 
-.boarding{
+.boarding {
     display: block;
     font-size: larger;
     font-style: italic;
@@ -322,7 +322,7 @@ margin-bottom:200px;
     color: orange;    
 }
 
-.newyork-footer{
+.newyork-footer {
     width:80%;
     display:flex;
     justify-content: space-between;
@@ -332,7 +332,7 @@ margin-bottom:200px;
     padding-top:80px;
 }
 
-.footer-parts{
+.footer-parts {
     width:90%;
     display:grid;
     justify-content: space-around;
@@ -343,34 +343,34 @@ margin-bottom:200px;
     grid-column-gap:50px;
 }
 
-.opinion{
+.opinion {
     margin-bottom:90px;
 }
 
-.art{
+.art {
     margin-bottom:110px;
 }
 
-.subscribe-one{
+.subscribe-one {
     margin-bottom:200px;
 }
 
-.news{
+.news {
     margin-bottom:30px;
 }
 
-.politics{
+.politics {
     color:black;
     text-decoration: none;
     font-size:large;
 }
 
-.game{
+.game {
     color:black;
     font-size:larger;
     text-decoration: none;
 }
 
-.more{
+.more {
     margin-top:60px;
 }
