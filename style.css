@@ -1,0 +1,330 @@
+.head{
+    display:flex;
+    height:50px;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom:1px solid black;
+    border-top: 1px solid black;
+}
+.head-icons{
+    width:300px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-acc{
+    width:300px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.drop{
+    color:black;
+}
+.subscribe{
+    margin-right:30px;
+    padding:11px 12px 8px 12px;
+    font-size: larger;
+    background-color: #567B95;
+}
+.space{
+    font-size:x-large;
+    font-weight: bold;
+    padding-bottom:7px;
+}
+h1{
+    width:500px;
+    text-align:center;
+    padding-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+    background-clip: content-box;
+    border-bottom:1px solid black;  
+}
+.icons{
+    display:flex;
+    margin-left:40%;
+    margin-right:40%;
+    margin-bottom:40px;
+    align-items: center;
+    justify-content: space-between;   
+}
+.facebook{
+    color:orange;   
+}
+.twitter{
+    color:orange;
+}
+.whatsup{
+    color:orange;  
+}
+.share{
+    color:orange;
+}
+.message{
+    color:orange;  
+}
+.envelope{
+    color:orange;
+}
+.alan-image{
+    display:block;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto; 
+    }
+ .alan-caption{
+     margin-left:10%;
+     margin-right:20%;
+     margin-top:5px;
+ }   
+ .one{
+     width:700px;
+     margin-left:auto;
+     margin-right: auto;
+     font-family:'Times New Roman', Times, serif;
+     font-weight: auto;
+     font-size:larger;
+ }
+ h3{
+    margin-left: 360px;
+ }
+ h4{
+     margin-left: 360px;
+     font-size:larger
+ }
+h5{
+    font-size:larger;
+    font-weight:bold;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.infilation-p{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+}
+.inflation{
+    display: block;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    
+}
+.container-one{
+display:grid;
+font-size:15px;
+width:80%;
+grid-template-columns: 250px 250px 250px 250px;
+grid-template-rows: 50px;
+margin-left: auto;
+margin-right: auto;
+padding-left:180px;
+grid-column-gap:20px;
+position:absolute;
+top:330%;
+margin-bottom:200px;
+
+}
+.container-two{
+    display:grid;
+font-size:15px;
+width:80%;
+grid-template-columns: 250px 250px 250px 250px;
+grid-template-rows: 50px;
+margin-left: auto;
+margin-right: auto;
+padding-left:180px;
+grid-column-gap:20px;
+position:absolute;
+top:370%;
+margin-bottom:200px;
+}
+.video{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.video-p{
+    width:700px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.telescope{
+    display:block;
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.para-header{
+    font-size:larger;
+    font-weight: bold;
+    width:700px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.version{
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+}
+.sub{
+    color:black;
+    text-decoration: none;
+}
+.order-r{
+    color:black;
+    text-decoration: none;
+}
+.todays{
+    color:black;
+    text-decoration: none;
+}
+.read-comments{
+    width:700px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: cneter;
+    margin-left:auto;
+    margin-right: auto;
+    height:40px;
+    padding-top:10px;
+    
+}
+.icons-2{
+    display:flex;
+    width:300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.comments{
+    color:black;
+    padding:5px 100px 5px 50px;
+    background-color: #567B95;
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popular{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 30px;
+}
+.letter{
+    font-size:larger;
+    padding-right: 400px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+.most{
+    font-size:larger;
+    padding-right: 200px;
+    font-weight: bold;
+}
+.suggested-news{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 10px;
+}
+.newsletter{
+    display:grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-column-gap:30px;
+    justify-self: flex-start;
+}
+.breaking-news{
+    border-color:rosybrown;
+    border-width:1px;
+    border-style: solid;
+    margin-bottom: 500px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.at-home{
+    border-color:rosybrown;
+    border-width:1px;
+    border-style: solid;
+    margin-bottom: 500px;
+    display:flex;
+    justify-content: space-between;
+}
+.the-morning{
+    border-color:rosybrown;
+    border-width:1px;
+    border-style: solid;
+    margin-bottom: 500px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.boarding{
+    display: block;
+    font-size: larger;
+    font-style: italic;
+    height: 50px;
+    border-bottom: 1px solid black;
+    text-align:center;
+    padding-top:20px;
+    text-decoration: none;
+    color: orange;    
+}
+.newyork-footer{
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:80px;
+}
+.footer-parts{
+    width:90%;
+    display:grid;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-column-gap:50px;
+}
+.opinion{
+    margin-bottom:90px;
+}
+.art{
+    margin-bottom:110px;
+}
+.subscribe-one{
+    margin-bottom:200px;
+}
+.news{
+    margin-bottom:30px;
+}
+.politics{
+    color:black;
+    text-decoration: none;
+    font-size:large;
+}
+.game{
+    color:black;
+    font-size:larger;
+    text-decoration: none;
+}
+.more{
+    margin-top:60px;
+}
