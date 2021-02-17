@@ -1,22 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The New York Times </title>
-    <link rel="stylesheet" href="newyork-times.css">
-</head>
-
-<body>
-    <header>
-        <h1>The new york Times</h1>
-    </header>
-    <section>
+<section>
         <h2>Space Ripples Reveal Big Bangs Smoking Gun </h2>
+        <div class="icon">
+            <i class="material-icons">facebook</i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-share"></i>
+            <i class="material-icons">message</i>
+        </div>
+
         <figure>
-            <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp"
+            <img class="alan-image"
+                src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp"
                 alt="Alan Guth images ">
             <figcaption>
                 Alan Guth was one of the first physicists to hypothesize
@@ -91,9 +85,30 @@
         </p>
         <p>
             He continued, “This is a signal from the very earliest universe, sending a telegram encoded in
-            gravitational waves.”
+            gravitational waves.” The ripples manifested themselves as faint spiral patterns in a bath of
+            microwave radiation that permeates space and preserves a picture of the universe when it was
+            380,000 years old and as hot as the surface of the sun.
         </p>
+        <p>
+            Dr. Kovac and his collaborators, working in an experiment known as Bicep, for Background Imaging
+            of Cosmic Extragalactic Polarization, reported their results in a scientific briefing at the
+            Center for Astrophysics here on Monday and in a set of papers submitted to The Astrophysical
+            Journal.
+        </p>
+        <div>
+            <h5>The Theory of Inflation</h5>
+            <p>Astronomers have found evidence to support the theory of inflation, which explains how
+                the universe expanded so uniformly and so quickly in the instant after the Big Bang
+                13.8 billion years ago.
+            </p>
+            <figure>
+                <img src="https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png"
+                    alt="The universe">
+                <figcaption>THE UNIVERSE is just under 14 billion years old. From our position in the
+                    Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years
+                    across. But there's a mystery. Wherever we look, the universe has an even
+                    temperature.
+                </figcaption>
+            </figure>
+        </div>
     </article>
-</body>
-
-</html>
