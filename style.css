@@ -242,14 +242,12 @@ h5 {
 }
 
 .popular {
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
   margin-top: 30px;
 }
 
@@ -287,7 +285,7 @@ h5 {
   justify-self: flex-start;
 }
 .first-row {
-  width: 600px;
+  width: 900px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -295,7 +293,7 @@ h5 {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 200px;
+  border-top: 1px solid darkgray;
 }
 .second-row {
   width: 1000px;
@@ -315,49 +313,38 @@ h5 {
   position: absolute;
   top: 85%;
 }
-.nasa {
-  box-sizing: border-box;
-}
 .caption {
   font-size: smaller;
   font-weight: lighter;
   color: darkgray;
   text-align: end;
 }
-.breaking-news {
-  border-color: rosybrown;
-  border-width: 1px;
-  border-style: solid;
-  margin-bottom: 500px;
-  display: flex;
-  justify-content: space-between;
-  flex-shrink: initial;
+.arctic {
+  width: 40px;
+  color: black;
+  text-decoration: none;
+  margin-left: 40px;
+  text-align: start;
+}
+.date {
+  margin-left: 40px;
+  font-style: italic;
 }
 
-.at-home {
-  border-color: rosybrown;
-  border-width: 1px;
-  border-style: solid;
-  margin-bottom: 500px;
-  display: flex;
-  justify-content: space-between;
+.nasa {
+  border-right: 1px solid darkgray;
+  display: inline-block;
 }
-
-.the-morning {
-  border-color: rosybrown;
-  border-width: 1px;
-  border-style: solid;
-  margin-bottom: 500px;
-  display: flex;
-  justify-content: space-between;
+.from {
+  margin-left: 40px;
 }
-
 .boarding {
   display: block;
   font-size: larger;
   font-style: italic;
   height: 50px;
   border-bottom: 1px solid black;
+  border-top: 1px solid darkgray;
   text-align: center;
   padding-top: 20px;
   text-decoration: none;
