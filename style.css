@@ -317,8 +317,6 @@ h5 {
   display: grid;
   grid-template-columns: repeat(3, 275px);
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 20px;
   top: 85%;
 }
@@ -327,7 +325,7 @@ h5 {
   font-size: smaller;
   font-weight: lighter;
   color: darkgray;
-  text-align: right;
+  text-align: left;
 }
 
 .arctic {
