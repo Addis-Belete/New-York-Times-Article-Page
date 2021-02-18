@@ -123,6 +123,9 @@ aside {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
 }
+.gates {
+  color: black;
+}
 
 h3 {
   margin-left: 360px;
