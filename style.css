@@ -287,12 +287,15 @@ h5 {
   justify-self: flex-start;
 }
 .first-row {
-  width: 1000px;
+  width: 600px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 400px;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 200px;
 }
 .second-row {
   width: 1000px;
@@ -305,13 +308,21 @@ h5 {
   box-sizing: border-box;
 }
 .editors-pick {
-  width: 1000px;
+  width: 800px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 200px;
   position: absolute;
   top: 85%;
+}
+.nasa {
+  box-sizing: border-box;
+}
+.caption {
+  font-size: smaller;
+  font-weight: lighter;
+  color: darkgray;
+  text-align: end;
 }
 .breaking-news {
   border-color: rosybrown;
@@ -320,6 +331,7 @@ h5 {
   margin-bottom: 500px;
   display: flex;
   justify-content: space-between;
+  flex-shrink: initial;
 }
 
 .at-home {
