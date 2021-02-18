@@ -291,7 +291,7 @@ h5 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
   position: relative;
 }
 .second-row {
@@ -299,21 +299,19 @@ h5 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
   position: absolute;
-  top: 60%;
-  right: 10%;
+  top: 45%;
   box-sizing: border-box;
 }
 .editors-pick {
   width: 1000px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   padding-bottom: 200px;
   position: absolute;
-  top: 100%;
-  right: 10%;
+  top: 85%;
 }
 .breaking-news {
   border-color: rosybrown;
