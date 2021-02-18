@@ -272,6 +272,7 @@ h5 {
   grid-template-columns: 2fr 1fr;
   margin-top: 10px;
 }
+
 .most-popular {
   width: 400px;
   float: inline-end;
@@ -284,6 +285,7 @@ h5 {
   grid-column-gap: 30px;
   justify-self: flex-start;
 }
+
 .first-row {
   width: 900px;
   display: flex;
@@ -295,6 +297,7 @@ h5 {
   margin-right: auto;
   border-top: 1px solid darkgray;
 }
+
 .second-row {
   width: 1000px;
   display: flex;
@@ -305,6 +308,7 @@ h5 {
   top: 45%;
   box-sizing: border-box;
 }
+
 .editors-pick {
   width: 800px;
   display: flex;
@@ -313,12 +317,14 @@ h5 {
   position: absolute;
   top: 85%;
 }
+
 .caption {
   font-size: smaller;
   font-weight: lighter;
   color: darkgray;
   text-align: end;
 }
+
 .arctic {
   width: 40px;
   color: black;
@@ -326,13 +332,16 @@ h5 {
   margin-left: 40px;
   text-align: start;
 }
+
 .date {
   margin-left: 40px;
   font-style: italic;
 }
+
 .from {
   margin-left: 40px;
 }
+
 .boarding {
   display: block;
   font-size: larger;
@@ -345,6 +354,7 @@ h5 {
   text-decoration: none;
   color: black;
 }
+
 footer {
   width: 80%;
   margin-top: 80px;
@@ -372,8 +382,8 @@ footer {
   margin-right: auto;
   grid-template-columns: 150px 150px 150px 150px 150px 150px;
   grid-column-gap: 100px;
-  position: static;
 }
+
 .opinion {
   margin-bottom: 190px;
 }
@@ -381,14 +391,17 @@ footer {
 .art {
   margin-bottom: 120px;
 }
+
 .living {
   margin-bottom: 15px;
 }
+
 .more {
   margin-bottom: 110px;
 }
+
 .subscribe-one {
-  margin-bottom: 265px;
+  margin-bottom: 290px;
 }
 
 .news {
@@ -400,12 +413,13 @@ footer {
   text-decoration: none;
   font-size: large;
 }
+
 .game {
   color: black;
   font-size: larger;
   text-decoration: none;
 }
 
-.more {
-  margin-top: 60px;
+.go-to {
+  color: darkgray;
 }
