@@ -423,3 +423,15 @@ footer {
 .go-to {
   color: darkgray;
 }
+
+.footer-two {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: smaller;
+  color: black;
+}
