@@ -330,11 +330,6 @@ h5 {
   margin-left: 40px;
   font-style: italic;
 }
-
-.nasa {
-  border-right: 1px solid darkgray;
-  display: inline-block;
-}
 .from {
   margin-left: 40px;
 }
@@ -343,49 +338,61 @@ h5 {
   font-size: larger;
   font-style: italic;
   height: 50px;
-  border-bottom: 1px solid black;
-  border-top: 1px solid darkgray;
+  border-bottom: 1px solid white;
+  border-top: 1px solid whitesmoke;
   text-align: center;
   padding-top: 20px;
   text-decoration: none;
-  color: orange;
+  color: black;
+}
+footer {
+  width: 80%;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .newyork-footer {
-  width: 80%;
+  width: 100%;
+  height: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 80px;
+  margin-top: 30px;
 }
 
 .footer-parts {
+  position: relative;
   width: 90%;
   display: grid;
   justify-content: space-around;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  grid-template-columns: 100px 100px 100px 100px 100px 100px;
-  grid-column-gap: 50px;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  grid-column-gap: 100px;
+  position: static;
 }
-
 .opinion {
-  margin-bottom: 90px;
+  margin-bottom: 190px;
 }
 
 .art {
+  margin-bottom: 120px;
+}
+.living {
+  margin-bottom: 15px;
+}
+.more {
   margin-bottom: 110px;
 }
-
 .subscribe-one {
-  margin-bottom: 200px;
+  margin-bottom: 265px;
 }
 
 .news {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .politics {
@@ -393,7 +400,6 @@ h5 {
   text-decoration: none;
   font-size: large;
 }
-
 .game {
   color: black;
   font-size: larger;
