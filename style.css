@@ -40,7 +40,7 @@
 
 h1 {
   width: 500px;
-  text-align: center;
+  text-align: left;
   padding-top: 30px;
   margin-right: auto;
   margin-left: auto;
@@ -299,44 +299,42 @@ h5 {
 }
 
 .second-row {
-  width: 1000px;
+  width: 900px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 400px;
   position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 70px;
   top: 45%;
   box-sizing: border-box;
 }
 
 .editors-pick {
-  width: 800px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  width: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, 275px);
   position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
   top: 85%;
-  border-top: 1px solid whitesmoke;
 }
 
 .caption {
   font-size: smaller;
   font-weight: lighter;
   color: darkgray;
-  text-align: end;
+  text-align: right;
 }
 
 .arctic {
   width: 40px;
   color: black;
   text-decoration: none;
-  margin-left: 40px;
-  text-align: start;
-}
-
-.date {
-  margin-left: 40px;
-  font-style: italic;
+  text-align: left;
 }
 
 .from {
@@ -350,7 +348,7 @@ h5 {
   height: 50px;
   border-bottom: 1px solid white;
   border-top: 1px solid whitesmoke;
-  text-align: center;
+  text-align: left;
   padding-top: 20px;
   text-decoration: none;
   color: black;
