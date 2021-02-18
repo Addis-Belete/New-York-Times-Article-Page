@@ -276,7 +276,7 @@ h5 {
 .most-popular {
   width: 400px;
   float: inline-end;
-  padding-left: 700px;
+  padding-left: 180px;
 }
 
 .newsletter {
@@ -316,6 +316,7 @@ h5 {
   align-items: center;
   position: absolute;
   top: 85%;
+  border-top: 1px solid whitesmoke;
 }
 
 .caption {
@@ -369,18 +370,17 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding-top: 80px;
-  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .footer-parts {
-  position: relative;
-  width: 90%;
+  width: 80%;
   display: grid;
   justify-content: space-around;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 100px;
 }
 
@@ -389,23 +389,23 @@ footer {
 }
 
 .art {
-  margin-bottom: 120px;
+  margin-bottom: 215px;
 }
 
 .living {
-  margin-bottom: 15px;
-}
-
-.more {
   margin-bottom: 110px;
 }
 
+.more {
+  margin-bottom: 50px;
+}
+
 .subscribe-one {
-  margin-bottom: 290px;
+  margin-bottom: 310px;
 }
 
 .news {
-  margin-bottom: 100px;
+  margin-bottom: 95px;
 }
 
 .politics {
