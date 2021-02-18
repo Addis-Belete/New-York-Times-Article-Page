@@ -104,6 +104,26 @@ h1 {
   font-size: larger;
 }
 
+aside {
+  float: right;
+  width: 300px;
+}
+
+.some {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.rivers {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.plan {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
 h3 {
   margin-left: 360px;
 }
