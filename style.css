@@ -9,7 +9,7 @@
   top: 0;
   right: 0;
   left: 0;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .head-icons {
@@ -175,7 +175,7 @@ h5 {
   padding-left: 180px;
   grid-column-gap: 20px;
   position: absolute;
-  top: 330%;
+  top: 320%;
   margin-bottom: 200px;
 }
 
@@ -190,7 +190,7 @@ h5 {
   padding-left: 180px;
   grid-column-gap: 20px;
   position: absolute;
-  top: 370%;
+  top: 360%;
   margin-bottom: 200px;
 }
 
