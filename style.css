@@ -9,7 +9,8 @@
   top: 0;
   right: 0;
   left: 0;
-  background-color: whitesmoke;
+  background-color: white;
+  z-index: 10;
 }
 
 .head-icons {
@@ -20,7 +21,7 @@
 }
 
 .sub-acc {
-  width: 300px;
+  width: 350px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -32,9 +33,14 @@
 
 .subscribe {
   margin-right: 30px;
-  padding: 11px 12px 8px 12px;
+  padding: 5px 10px 8px 5px;
   font-size: larger;
   background-color: #567b95;
+}
+.log {
+  padding: 11px 12px 8px 12px;
+  background-color: #567b95;
+  padding-left: 10px;
 }
 
 .space {
