@@ -53,6 +53,7 @@ h1 {
   font-style: italic;
   background-clip: content-box;
   border-bottom: 1px solid black;
+  margin-top: 100px;
 }
 
 .icons {
