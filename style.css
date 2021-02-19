@@ -45,6 +45,10 @@
   text-decoration: none;
 }
 
+.newyork {
+  background-color: whitesmoke;
+}
+
 h1 {
   width: 510px;
   text-align: left;
@@ -292,7 +296,7 @@ button {
 
 .letter {
   font-size: larger;
-  padding-right: 400px;
+  padding-left: 85px;
   font-weight: bold;
   margin-right: 100px;
 }
@@ -308,7 +312,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: 1.5fr 2fr;
+  grid-template-columns: 2fr 1fr;
   margin-top: 10px;
 }
 
@@ -320,7 +324,7 @@ button {
 
 .newsletter {
   display: grid;
-  grid-template-columns: 250px 250px 250px;
+  grid-template-columns: 210px 210px 210px;
   grid-column-gap: 30px;
   justify-self: flex-start;
 }
@@ -391,7 +395,7 @@ button {
 }
 
 footer {
-  width: 90%;
+  width: 80%;
   margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
@@ -402,12 +406,11 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: px;
   margin-bottom: 10px;
 }
 
 .footer-parts {
-  width: 80%;
+  width: 70%;
   display: grid;
   justify-content: space-around;
   align-items: center;
