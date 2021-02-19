@@ -36,15 +36,7 @@
 
 - git clone git@github.com:Addis0943/Sneak-peak-project.git
 - cd Sneak-peak-project
-- git checkout -b
-
-## To get a local copy up and running follow these simple example steps.
-
-git clone https://github.com/udberg/the-next-web-clone
-
-cd the-next-web-clone
-
-git checkout -b home-page
+- git checkout -bg
 
 ### Linters.
 
@@ -54,7 +46,7 @@ npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-s
 
 Run the following command to check linters
 
-npx stylelint "\*/.{css,scss}"
+npx stylelint "\*_/_.{css,scss}"
 
 ### Deployment
 
