@@ -228,6 +228,9 @@ h5 {
   color: black;
   text-decoration: none;
 }
+button {
+  border: none;
+}
 
 .order-r {
   color: black;
