@@ -1,8 +1,10 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Project Name: Sneak Peak Project
 
 > This project is Mainly focused in Building the repleca of New York Times Article page. to build this project Html and css languges were used.
 
-![screenshot](./NTY_screenshoot.png)
+![screenshot](./NYT_screenshoot.png)
 
 ## Built With
 
