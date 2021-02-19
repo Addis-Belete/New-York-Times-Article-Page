@@ -178,7 +178,7 @@ h5 {
   padding-left: 180px;
   grid-column-gap: 20px;
   position: absolute;
-  top: 320%;
+  top: 330%;
   margin-bottom: 200px;
 }
 
@@ -193,7 +193,7 @@ h5 {
   padding-left: 180px;
   grid-column-gap: 20px;
   position: absolute;
-  top: 360%;
+  top: 370%;
   margin-bottom: 200px;
 }
 
@@ -324,7 +324,7 @@ button {
 }
 
 .first-row {
-  width: 900px;
+  width: 845px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -336,9 +336,9 @@ button {
 }
 
 .second-row {
-  width: 900px;
+  width: 850px;
   display: grid;
-  grid-template-columns: repeat(3, 285px);
+  grid-template-columns: repeat(3, 272px);
   position: absolute;
   top: 45%;
   box-sizing: border-box;
@@ -346,9 +346,9 @@ button {
 }
 
 .editors-pick {
-  width: 900px;
+  width: 850px;
   display: grid;
-  grid-template-columns: repeat(3, 285px);
+  grid-template-columns: repeat(3, 272px);
   position: absolute;
   padding-left: 20px;
   top: 85%;
