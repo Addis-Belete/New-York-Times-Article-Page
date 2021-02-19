@@ -2,7 +2,7 @@
 
 > This project is Mainly focused in Building the repleca of New York Times Article page. to build this project Html and css languges were used.
 
-![screenshot](./NTY-screenshoot.png)
+![screenshot](./NTY_screenshoot.png)
 
 ## Built With
 
@@ -45,3 +45,4 @@
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
+sa
