@@ -236,6 +236,7 @@ h5 {
 
 button {
   border: none;
+  border-radius: 5px;
 }
 
 .order-r {
