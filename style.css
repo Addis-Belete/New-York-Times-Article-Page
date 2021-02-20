@@ -172,42 +172,34 @@ h5 {
   font-size: 20px;
 }
 
-.inflation {
-  display: block;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-
 .container-one {
-  display: grid;
-  font-size: 15px;
   width: 80%;
-  grid-template-columns: 250px 250px 250px 250px;
-  grid-template-rows: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 180px;
-  grid-column-gap: 20px;
-  position: absolute;
-  top: 331%;
-  margin-bottom: 200px;
+  grid-gap: 15px;
 }
 
 .container-two {
-  display: grid;
-  font-size: 15px;
   width: 80%;
-  grid-template-columns: 250px 250px 250px 250px;
-  grid-template-rows: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 180px;
-  grid-column-gap: 20px;
-  position: absolute;
-  top: 371%;
-  margin-bottom: 200px;
+}
+
+.universe {
+  display: block;
+}
+
+.coffee-everywhere {
+  display: block;
+}
+
+.inflation {
+  display: block;
 }
 
 .video {
