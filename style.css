@@ -396,7 +396,8 @@ button {
 
 footer {
   width: 80%;
-  margin-top: 150px;
+  height: 200px;
+  margin-top: 190px;
   margin-left: auto;
   margin-right: auto;
   border-top: 4px double whitesmoke;
@@ -423,7 +424,7 @@ footer {
 }
 
 .opinion {
-  margin-bottom: 190px;
+  margin-bottom: 223px;
 }
 
 .art {
@@ -435,15 +436,15 @@ footer {
 }
 
 .more {
-  margin-bottom: 50px;
+  margin-bottom: 130px;
 }
 
 .subscribe-one {
-  margin-bottom: 310px;
+  margin-bottom: 325px;
 }
 
 .news {
-  margin-bottom: 95px;
+  margin-bottom: 110px;
 }
 
 .politics {
