@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://addis0943.github.io/Sneak-peak-project/)
 
 ### Prerequisites
 
