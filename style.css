@@ -295,28 +295,29 @@ button {
 
 .letter {
   font-size: larger;
-  padding-left: 85px;
+  padding-right: 10px;
   font-weight: bold;
-  margin-right: 100px;
+  margin-right: 70px;
 }
 
 .most {
   font-size: larger;
-  padding-right: 200px;
+  padding-right: 280px;
   font-weight: bold;
 }
 
 .suggested-news {
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin-top: 10px;
+  column-gap: 10px;
 }
 
 .most-popular {
-  width: 500px;
+  width: 450px;
   float: inline-end;
   padding-left: 180px;
 }
@@ -325,40 +326,39 @@ button {
   display: grid;
   grid-template-columns: 210px 210px 210px;
   grid-column-gap: 30px;
-  justify-self: flex-start;
 }
 
 .first-row {
-  width: 845px;
+  width: 840px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 400px;
   position: relative;
-  margin-left: auto;
+  margin-left: 10px;
   margin-right: auto;
-  border-top: 1px solid darkgray;
+  border-top: 1px solid whitesmoke;
 }
 
 .second-row {
-  width: 850px;
+  width: 800px;
   display: grid;
   grid-template-columns: repeat(3, 272px);
   position: absolute;
   top: 45%;
-  box-sizing: border-box;
-  padding-left: 20px;
 }
 
 .editors-pick {
-  width: 850px;
+  width: 800px;
   display: grid;
   grid-template-columns: repeat(3, 272px);
   position: absolute;
   padding-left: 20px;
   top: 85%;
+  right: 2%;
   border-top: 1px solid whitesmoke;
   padding-top: 20px;
+  overflow-x: hidden;
 }
 
 .caption {
@@ -387,10 +387,11 @@ button {
   border-bottom: 1px solid white;
   border-top: 1px solid whitesmoke;
   text-align: left;
-  padding-top: 20px;
+  padding-top: 15px;
   text-decoration: none;
   color: black;
-  margin-right: 100px;
+  margin-right: 60px;
+  padding-right: 30px;
 }
 
 footer {
@@ -406,17 +407,19 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  overflow-x: hidden;
 }
 
 .footer-parts {
-  width: 70%;
+  width: 100%;
   display: grid;
   justify-content: space-around;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 100px;
+  grid-column-gap: 80px;
+  overflow-x: hidden;
 }
 
 .opinion {
@@ -462,6 +465,7 @@ footer {
 ul {
   display: flex;
   justify-content: space-around;
+  overflow-x: hidden;
 }
 
 li {
